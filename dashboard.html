@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DASHBOARD</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 200px;
+      border-right: 1px solid black;
+      padding: 10px;
+      height: 100vh;
+    }
+
+    .sidebar h3 {
+      margin-top: 0;
+    }
+
+    .sidebar a {
+      display: block;
+      margin: 10px 0;
+      text-decoration: none;
+      color: black;
+    }
+
+    .logout {
+      position: absolute;
+      bottom: 10px;
+    }
+
+    /* Main content */
+    .content {
+      padding: 20px;
+      flex: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <h3>🍅KAMATIS🍅</h3>
+
+    <a href="monitoring.html">Monitoring</a>
+    <a href="data.html">Data Logs</a>
+    <a href="transport.html">Transport Logs</a>
+
+    <div class="logout">
+      <a href="index.html">Log out</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <h1>Welcome to Kamatis Dashboard 🍅</h1>
+  </div>
+
+</body>
+</html>
